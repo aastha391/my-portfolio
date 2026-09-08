@@ -15,7 +15,7 @@ export const education = [
     degree: 'Class X — ICSE Board',
     institution: '',
     date: 'Passed 2022',
-    detail: 'Percentage: 97.15%',
+    detail: 'Percentage: 97.17%',
   },
 ]
 

@@ -1,4 +1,28 @@
 export const projects = [
+     {
+    id: 'govcheck',
+    title: 'GovCheck',
+    subtitle: 'Faithfulness-Aware RAG System for Government Documents',
+    date: 'Sep 2026 – Present',
+    team: 'Team Project · 4 members',
+    role: 'Backend & ML Developer',
+    tech: ['React.js', 'FastAPI', 'LangChain', 'PostgreSQL', 'ChromaDB', 'DeBERTa-v3', 'Mistral-7B'],
+    description:
+      'A RAG pipeline for Indian government and legal documents, currently being extended with a fine-tuned hallucination-detection model to improve answer faithfulness.',
+    github: '', // paste your GitHub repo URL here once available
+    live: '', // paste your live deployed link here once available
+    points: [
+      'Built RAG pipeline for Indian govt/legal documents using multilingual embeddings and Mistral-7B',
+      'Engineered ingestion and retrieval pipeline for PDFs from India Code, data.gov.in, eCourts',
+      'Collected 25+ government PDFs (Acts, judgments, schemes) and curated IndicLegalQA (10K QA pairs, 1,256 SC judgments) for an upcoming hallucination-detection model',
+    ],
+    featured: true,
+    stats: [
+      { label: 'Gov PDFs', value: '25+' },
+      { label: 'QA Pairs', value: '10K' },
+      { label: 'SC Judgments', value: '1,256' },
+    ],
+  },
   {
     id: 'campushub',
     title: 'CampusHub',
